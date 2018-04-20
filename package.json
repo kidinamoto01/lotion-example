@@ -1,0 +1,29 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 12345  public",
+    "compile": "browserify src/app.js -o public/js/app.js -d"
+  },
+  "keywords": [],
+  "author": "suyu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "browserify": "^14.5.0",
+    "discovery-channel": "^5.4.6",
+    "discovery-server": "^1.1.0",
+    "get-port": "^3.1.0",
+    "http-server": "^0.10.0",
+    "lotion": "^0.1.18",
+    "lotion-coin": "0.0.1",
+    "lotion-connect": "0.0.1",
+    "resolve": "^1.7.1",
+    "secp256k1": "^3.5.0",
+    "spawn-sync": "^1.0.15",
+    "thread-sleep": "^2.0.0",
+    "try-thread-sleep": "^1.0.2"
+  }
+}
